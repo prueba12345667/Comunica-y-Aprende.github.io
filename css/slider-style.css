@@ -1,0 +1,133 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --dark: #232830;
+    --light-slate-blue: #0E95D6;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --scampi: #62579A;
+    --moody-blue: #2B5D75;
+    --light-slate-blue-trans:#9988f190;
+    --melrose: #BEB3F6;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 20px;
+
+}
+*{
+    transition: all 0.3s;
+}
+
+body{
+    border-radius: 16px;
+    background-color: var(--white);
+}
+
+#kiko-slider{
+    border: var(--moody-blue) solid 5px;
+    border-radius: 16px;
+    text-align: center;
+    font-family:"Quicksand", sans-serif;
+    margin: auto;
+    background-color: var(--light-slate-blue);
+    max-width: 800px;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#kiko-slider > ul, li {
+    border-radius: 16px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#kiko-slider > ul.slider{
+    border-radius: 16px;
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    height: 300px;
+}
+
+#kiko-slider > ul.slider h1{
+    border-radius: 16px;
+    position: absolute;
+    background-color: var(--light-slate-blue-trans);
+    padding: 10px;
+    left: 50%;
+    top: 125px;
+    transform: translate(-50%, -50%);
+}
+
+#kiko-slider > ul.slider li {
+    border-radius: 16px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background: var(--white);
+}
+
+#kiko-slider > ul.slider li .background{
+    border-radius: 16px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+#kiko-slider > ul.slider li .video{
+    border-radius: 16px;
+    width: 100%;
+    height: 700x;
+    object-fit: cover;
+}
+#kiko-slider > ul.slider li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+
+#kiko-slider > ul.slider li:target {
+    opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+#kiko-slider > .menu{
+    border-radius: 16px;
+    text-align: center;
+    margin: 20px;
+}
+
+#kiko-slider > .menu li{
+    border-radius: 16px;
+    display: inline-block;
+    text-align: center;
+}
+
+#kiko-slider > .menu li a{
+    text-align: center;
+    border-radius: 16px;
+    display: inline-block;
+    color: var(--white);
+    text-decoration: none;
+    background-color: var(--moody-blue);
+    padding: 15px;
+    width: 20px;
+    height: 20px;
+    font-size: var(--sm);
+    border-radius: 100%;
+}
+#kiko-slider > .menu li a:hover {
+    background: var(--melrose);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+#kiko-slider > ul.slider li .letter{
+    border-radius: 16px;
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}

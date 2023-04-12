@@ -1,0 +1,32 @@
+[
+    {
+        "categoria": "Lenguaje de señas",
+        "pregunta": "Qué significa este signo?",
+        "respuesta": "O",
+        "incorrecta1": "C",
+        "incorrecta2": "D",
+        "incorrecta3": "Q",
+        "imagen": "../../../images/abcd/O.png",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Lenguaje de señas",
+        "pregunta": "Qué significa este signo?",
+        "respuesta": "U",
+        "incorrecta1": "V",
+        "incorrecta2": "2",
+        "incorrecta3": "L",
+        "imagen": "../../../images/abcd/U.png",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Lenguaje de señas",
+        "pregunta": "Qué significa este signo?",
+        "respuesta": "H",
+        "incorrecta1": "J",
+        "incorrecta2": "I",
+        "incorrecta3": "G",
+        "imagen": "../../../images/abcd/H.png",
+        "objectFit": "contain"
+    }
+]
